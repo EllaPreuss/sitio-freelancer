@@ -1,0 +1,46 @@
+:root {
+    --blanco: #FFFFFF;  
+    --oscuro: #212121;
+    --primario: #ffC107;
+    --secundario: #0097a7;
+    --gris: #757575;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /*1rem = 10px*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span {
+    font-size: 2rem;
+}
+
+.nav-bg {
+    background-color: var(--secundario);  
+}
+
+.contenedor {
+    width: 120rem; /*1200px*/
+    margin: 0 auto;
+}
+
+.navegacion-principal {
+    /*solo los enlaces con su contenedor*/
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+}
